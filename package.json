@@ -1,0 +1,40 @@
+{
+  "name": "tests_cra_fb",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A test of CRA and Firebase with Flowtype, Jest, Redux, and React-Router",
+  "author": "SketchBuch - sketchbuch.com",
+  "homepage": "./",
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "testc": "react-scripts test --env=jsdom --coverage",
+    "testv": "react-scripts test --env=jsdom --verbose"
+  },
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "ajv-keywords": "^3.2.0",
+    "firebase": "^5.0.3",
+    "formik": "^0.11.11",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-redux-toastr": "^7.2.3",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "yup": "^0.24.1"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint-plugin-flowtype": "^2.46.3",
+    "eslint-plugin-jest": "^21.15.1",
+    "flow-bin": "^0.60.1"
+  }
+}

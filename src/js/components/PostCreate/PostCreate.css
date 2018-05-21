@@ -1,0 +1,16 @@
+/* Post List */
+/* --------- */
+
+.PostList {
+  width: 80%;
+  max-width: 800px;
+	display: block;
+  margin: 0px auto;
+}
+
+.PostList__headline {
+  font-size: var(--font-size-large);
+  line-height: var(--lh-std);
+  color: var(--col-darken-5);
+  padding: 10px 20px;
+}

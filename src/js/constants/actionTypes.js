@@ -1,0 +1,11 @@
+/**
+* Action Type Constants
+*/
+
+// Posts:
+export const POSTS_LOAD_ALL = 'POSTS_LOAD_ALL';
+export const POSTS_LOAD_ALL_ERROR = 'POSTS_LOAD_ALL_ERROR';
+export const POSTS_LOAD_ALL_SUCCESS = 'POSTS_LOAD_ALL_SUCCESS';
+export const POSTS_SAVE_NEW = 'POSTS_SAVE_NEW';
+export const POSTS_SAVE_NEW_SUCCESS = 'POSTS_SAVE_NEW_SUCCESS';
+export const POSTS_SAVE_NEW_ERROR = 'POSTS_SAVE_NEW_ERROR';
